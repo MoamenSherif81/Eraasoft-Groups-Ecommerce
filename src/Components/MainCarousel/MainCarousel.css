@@ -1,5 +1,5 @@
 .main-carousel__slide{
-  height: 600px !important;
+  max-height: 600px !important;
 }
 
 .main-carousel__img{
@@ -13,6 +13,7 @@
   color: #ddd !important;
   width: 100px !important;
 }
+
 .swiper-button-prev::after, .swiper-button-next::after{
   font-size: 27px !important;
 }

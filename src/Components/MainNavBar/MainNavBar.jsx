@@ -12,9 +12,9 @@ export default function MainNavBar() {
     <Navbar expand="lg" className="navbar">
       <Container>
         <Navbar.Brand href="#home">E-Commerce</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav mb-2" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto d-flex justify-content-between align-items-center w-100">
+          <Nav className="me-auto d-flex gap-3 flex-row justify-content-between align-items-center w-100">
             <div className="d-flex gap-2">
               <NavLink className="text-decoration-none text-black nav__link px-2" to="/">Home</NavLink>
               <NavLink className="text-decoration-none text-black nav__link px-2" to="/shop">Shop</NavLink>
